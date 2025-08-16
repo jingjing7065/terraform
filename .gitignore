@@ -1,0 +1,14 @@
+# 忽略所有 Terraform 本地生成目录
+**/.terraform/
+
+# 忽略所有 provider lock 文件（可选）
+**/.terraform.lock.hcl
+
+# 忽略所有 tfstate 文件（包含备份）
+**/*.tfstate
+**/*.tfstate.*
+
+# 忽略 Terraform 崩溃日志（可选）
+crash.log
+crash.*.log
+
